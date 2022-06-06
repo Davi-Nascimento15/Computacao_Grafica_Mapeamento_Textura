@@ -1,5 +1,4 @@
-﻿using SharpGL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SharpGL;
 
 namespace Mapeamento_Textura
 {
@@ -125,6 +125,7 @@ namespace Mapeamento_Textura
             gl.End();
 
             gl.Flush();
+           
             rotacao += 1.0f;
         }
         private void Inicio_KeyPress(object sender, KeyPressEventArgs e)
